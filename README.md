@@ -1,1 +1,4 @@
 # Customer_Churn
+
+
+#### 09/03/2026: Iniciamos nossa EDA. Até o momento, já analisamos os missings, quantidades de elementos em variáveis categóricas, e o balanceamento da nossa variável alvo 'Churn'. Com isso, concluímos que é necessário usar StratifiedKFold. Também, logo a seguir, faremos análise nas variáveis "numericas" para verificar quais delas não são na verdade categorias disfarçadas, como já notamos ser o caso de SeniorCitizen. Com, isso, atualizaremos a tipagem das colunas, e salvarmos em um .pkl a versão atualizada so nosso df. Definiremos uma função para essa tarefa, assim, o processo poderá ser replicado com exatidão também em na base de teste, evitando conflitos ao longo do caminho. A etapa anteriormende referida foi concluída ainda hoje. Os nossos materiais já devidamente tipados estão salvos em test_att.pkl, e df_att.pkl. Sugestão de padronização: renomear df_att.pkl para test_att.pkl para manter a coerência de notação do projeto.
