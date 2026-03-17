@@ -13,3 +13,10 @@
 
 ### 12/03/2026: Hoje utilizaremos Pipeline e BaseEstimator/TransformerMixin pra padronizar nosso feature enginering. Testaremos esse processo adicionando a variavel log(TotalCharge) e testar se ela afeta positivamente o desempenho do modelo.
 #### O teste mencionado acima foi realizado. Embora ainda reste ver se não houve algum erro de implementação, o resultado primário não foi proveitoso. As tasks de amanhã devem se voltar em verificar se houve algum problema no Pipeline da implementação, e, se não, pensar em adicionar uma nova variável. Como ainda temos muito tempo até a culminância, não será uma prioridade realizar o tunning por agora. Procuraremos se não existe alguma variável útil para adicionar ao modelo. PS: confirmamos que a natureza do early stopping estava atrapalhando o desempenho do modelo. Ainda assim, a adição da variável não se mostrou útil para o modelo.
+
+#### 16/03/2026: Na data de hoje, iremos verificar se existe alguma outra variável que podemos definir com feature enginering pra boter resultados melhores no nosso Machine Learning. Adicionamos a variável "Total_vs_monthly_charges" que trouxe resultado positivo pro modelo, e foi adicionada em caráter permanente no df_att.pkl. Lembremos, no entanto, de adiciona a task permanente "testar envio sem a nova feature após o tunning para comparar resultados." Essa task estará salva ao desse daily log.
+
+
+# Task de longo prazo:
+
+## Testar o modelo com e sem Total Charges/Monthly Charges após fazer o tunning do modelo.
